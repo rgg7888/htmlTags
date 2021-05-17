@@ -6,3 +6,10 @@ if(!function_exists('title')) {
         return $title->add();
     }
 }
+
+if(!function_exists('lnk')) {
+    function lnk(array $atributos) {
+        $link = new App\tags\link\Link($atributos);
+        return $link->add();
+    }
+}
