@@ -20,7 +20,8 @@
         "psr-4": {
             "App\\tags\\title\\": "src/title/",
             "App\\tags\\link\\": "src/link/",
-            "App\\tags\\script\\": "src/script/"
+            "App\\tags\\script\\": "src/script/",
+            "App\\tags\\nav\\": "src/nav/"
         },
         "files": ["src/helpers.php"]
     }
