@@ -22,7 +22,7 @@ if(!function_exists('script')) {
 }
 
 if(!function_exists('nav')) {
-    function nav(array $atributos = [],$content = null) {
+    function nav($content = null,array $atributos = []) {
         $nav = new App\tags\nav\Nav($content,$atributos);
         return $nav->add();
     }
