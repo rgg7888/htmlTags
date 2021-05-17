@@ -13,3 +13,10 @@ if(!function_exists('lnk')) {
         return $link->add();
     }
 }
+
+if(!function_exists('script')) {
+    function script($content,array $atributos) {
+        $script = new App\tags\script\Script($content,$atributos);
+        return $script->add();
+    }
+}
