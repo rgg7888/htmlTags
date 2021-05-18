@@ -27,3 +27,17 @@ if(!function_exists('nav')) {
         return $nav->add();
     }
 }
+
+if(!function_exists('div')) {
+    function div($content = null,array $atributos = []) {
+        $div = new App\tags\div\Div($content,$atributos);
+        return $div->add();
+    }
+}
+
+if(!function_exists('a')) {
+    function a($content = null,array $atributos = []) {
+        $a = new App\tags\a\A($content,$atributos);
+        return $a->add();
+    }
+}
