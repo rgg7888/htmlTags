@@ -23,7 +23,8 @@
             "App\\tags\\script\\": "src/script/",
             "App\\tags\\nav\\": "src/nav/",
             "App\\tags\\div\\": "src/div/",
-            "App\\tags\\a\\": "src/a/"
+            "App\\tags\\a\\": "src/a/",
+            "App\\tags\\ul\\": "src/ul/"
         },
         "files": ["src/helpers.php"]
     }
