@@ -55,3 +55,10 @@ if(!function_exists('li')) {
         return $li->add();
     }
 }
+
+if(!function_exists('i')) {
+    function i($content = null,array $atributos = []) {
+        $i = new App\tags\i\I($content,$atributos);
+        return $i->add();
+    }
+}
