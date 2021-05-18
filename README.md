@@ -28,4 +28,9 @@ sin atributos primero.
     ]);</li>
     <li>script(atributos,contenido)</li>
     <li>nav(contenido,atributos)</li>
+    <li>div(contenido,atributos)</li>
+    <li>a(contenido,atributos)</li>
+    <li>ul(contenido,atributos)</li>
+    <li>li(contenido,atributos)</li>
+    <li>i(contenido,atributos)</li>
 </ul>
