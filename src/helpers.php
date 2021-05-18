@@ -48,3 +48,10 @@ if(!function_exists('ul')) {
         return $ul->add();
     }
 }
+
+if(!function_exists('li')) {
+    function li($content = null,array $atributos = []) {
+        $li = new App\tags\li\Li($content,$atributos);
+        return $li->add();
+    }
+}
