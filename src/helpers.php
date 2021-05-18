@@ -41,3 +41,10 @@ if(!function_exists('a')) {
         return $a->add();
     }
 }
+
+if(!function_exists('ul')) {
+    function ul($content = null,array $atributos = []) {
+        $ul = new App\tags\ul\Ul($content,$atributos);
+        return $ul->add();
+    }
+}
