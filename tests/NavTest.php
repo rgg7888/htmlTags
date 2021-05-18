@@ -5,7 +5,7 @@ use App\tags\nav\Nav;
 
 class NavTest extends TestCase {
 
-    public function test_script_tag () {
+    public function test_nav_tag () {
 
         $nav = new Nav("hello",[
             'class' => '#'
