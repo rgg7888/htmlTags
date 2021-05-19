@@ -62,3 +62,10 @@ if(!function_exists('i')) {
         return $i->add();
     }
 }
+
+if(!function_exists('footer')) {
+    function footer($content = null,array $atributos = []) {
+        $footer = new App\tags\footer\Footer($content,$atributos);
+        return $footer->add();
+    }
+}
