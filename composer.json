@@ -28,7 +28,13 @@
             "App\\tags\\li\\": "src/li/",
             "App\\tags\\i\\": "src/i/",
             "App\\tags\\footer\\": "src/footer/",
-            "App\\tags\\section\\": "src/section/"
+            "App\\tags\\section\\": "src/section/",
+            "App\\tags\\h1\\": "src/h1/",
+            "App\\tags\\h2\\": "src/h2/",
+            "App\\tags\\h3\\": "src/h3/",
+            "App\\tags\\h4\\": "src/h4/",
+            "App\\tags\\h5\\": "src/h5/",
+            "App\\tags\\h6\\": "src/h6/"
         },
         "files": ["src/helpers.php"]
     }

@@ -76,3 +76,45 @@ if(!function_exists('section')) {
         return $section->add();
     }
 }
+
+if(!function_exists('h1')) {
+    function h1($content = null,array $atributos = []) {
+        $h1 = new App\tags\h1\H1($content,$atributos);
+        return $h1->add();
+    }
+}
+
+if(!function_exists('h2')) {
+    function h2($content = null,array $atributos = []) {
+        $h2 = new App\tags\h2\H2($content,$atributos);
+        return $h2->add();
+    }
+}
+
+if(!function_exists('h3')) {
+    function h3($content = null,array $atributos = []) {
+        $h3 = new App\tags\h3\H3($content,$atributos);
+        return $h3->add();
+    }
+}
+
+if(!function_exists('h4')) {
+    function h4($content = null,array $atributos = []) {
+        $h4 = new App\tags\h4\H4($content,$atributos);
+        return $h4->add();
+    }
+}
+
+if(!function_exists('h5')) {
+    function h5($content = null,array $atributos = []) {
+        $h5 = new App\tags\h5\H5($content,$atributos);
+        return $h5->add();
+    }
+}
+
+if(!function_exists('h6')) {
+    function h6($content = null,array $atributos = []) {
+        $h6 = new App\tags\h6\H6($content,$atributos);
+        return $h6->add();
+    }
+}
