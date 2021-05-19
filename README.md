@@ -33,4 +33,5 @@ sin atributos primero.
     <li>ul(contenido,atributos)</li>
     <li>li(contenido,atributos)</li>
     <li>i(contenido,atributos)</li>
+    <li>footer(contenido,atributos)</li>
 </ul>
