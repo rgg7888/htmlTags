@@ -69,3 +69,10 @@ if(!function_exists('footer')) {
         return $footer->add();
     }
 }
+
+if(!function_exists('section')) {
+    function section($content = null,array $atributos = []) {
+        $section = new App\tags\section\Section($content,$atributos);
+        return $section->add();
+    }
+}
