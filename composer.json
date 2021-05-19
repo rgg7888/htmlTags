@@ -26,7 +26,8 @@
             "App\\tags\\a\\": "src/a/",
             "App\\tags\\ul\\": "src/ul/",
             "App\\tags\\li\\": "src/li/",
-            "App\\tags\\i\\": "src/i"
+            "App\\tags\\i\\": "src/i/",
+            "App\\tags\\footer\\": "src/footer/"
         },
         "files": ["src/helpers.php"]
     }
