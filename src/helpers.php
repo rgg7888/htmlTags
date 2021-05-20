@@ -14,6 +14,13 @@ if(!function_exists('lnk')) {
     }
 }
 
+if(!function_exists('input')) {
+    function input(array $atributos) {
+        $input = new App\tags\input\Input($atributos);
+        return $input->add();
+    }
+}
+
 if(!function_exists('script')) {
     function script(array $atributos = [],$content = null) {
         $script = new App\tags\script\Script($content,$atributos);
@@ -116,5 +123,19 @@ if(!function_exists('h6')) {
     function h6($content = null,array $atributos = []) {
         $h6 = new App\tags\h6\H6($content,$atributos);
         return $h6->add();
+    }
+}
+
+if(!function_exists('form')) {
+    function form($content = null,array $atributos = []) {
+        $form = new App\tags\form\Form($content,$atributos);
+        return $form->add();
+    }
+}
+
+if(!function_exists('label')) {
+    function label($content = null,array $atributos = []) {
+        $label = new App\tags\label\Label($content,$atributos);
+        return $label->add();
     }
 }

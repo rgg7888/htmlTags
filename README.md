@@ -36,4 +36,7 @@ sin atributos primero.
     <li>footer(contenido,atributos)</li>
     <li>h(1,2,3,4,5,6)(contenido,atributos)</li>
     <li>section(contenido,atributos)</li>
+    <li>form(contenido,atributos)</li>
+    <li>label(contenido,atributos)</li>
+    <li>input(atributos)</li>
 </ul>
