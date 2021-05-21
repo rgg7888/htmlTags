@@ -42,9 +42,11 @@ sin atributos primero.
     <li>
     ol(contenido,atributos)
         <div>
+        <pre>
         Implemente el espejo de este helper
         (implementacion 
         del espejo no incluida aun)
+        </pre>
         </div>
     </li>
 </ul>
