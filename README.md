@@ -39,4 +39,12 @@ sin atributos primero.
     <li>form(contenido,atributos)</li>
     <li>label(contenido,atributos)</li>
     <li>input(atributos)</li>
+    <li>
+    ol(contenido,atributos)
+        <div>
+        Implemente el espejo de este helper
+        (implementacion 
+        del espejo no incluida aun)
+        </div>
+    </li>
 </ul>
