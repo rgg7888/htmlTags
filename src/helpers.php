@@ -56,6 +56,13 @@ if(!function_exists('ul')) {
     }
 }
 
+if(!function_exists('ol')) {
+    function ol($content = null,array $atributos = []) {
+        $ol = new App\tags\ol\Ol($content,$atributos);
+        return $ol->add();
+    }
+}
+
 if(!function_exists('li')) {
     function li($content = null,array $atributos = []) {
         $li = new App\tags\li\Li($content,$atributos);

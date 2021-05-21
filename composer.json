@@ -25,6 +25,7 @@
             "App\\tags\\div\\": "src/div/",
             "App\\tags\\a\\": "src/a/",
             "App\\tags\\ul\\": "src/ul/",
+            "App\\tags\\ol\\": "src/ol/",
             "App\\tags\\li\\": "src/li/",
             "App\\tags\\i\\": "src/i/",
             "App\\tags\\footer\\": "src/footer/",
