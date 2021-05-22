@@ -84,6 +84,13 @@ if(!function_exists('footer')) {
     }
 }
 
+if(!function_exists('p')) {
+    function p($content = null,array $atributos = []) {
+        $p = new App\tags\p\P($content,$atributos);
+        return $p->add();
+    }
+}
+
 if(!function_exists('section')) {
     function section($content = null,array $atributos = []) {
         $section = new App\tags\section\Section($content,$atributos);
