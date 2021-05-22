@@ -49,4 +49,14 @@ sin atributos primero.
         </pre>
         </div>
     </li>
+    <li>
+    p(contenido,atributos)
+        <div>
+        <pre>
+        Implemente el espejo de este helper
+        (implementacion 
+        del espejo no incluida aun)
+        </pre>
+        </div>
+    </li>
 </ul>
