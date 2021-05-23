@@ -14,6 +14,13 @@ if(!function_exists('lnk')) {
     }
 }
 
+if(!function_exists('img')) {
+    function img(array $atributos) {
+        $img = new App\tags\img\Img($atributos);
+        return $img->add();
+    }
+}
+
 if(!function_exists('input')) {
     function input(array $atributos) {
         $input = new App\tags\input\Input($atributos);

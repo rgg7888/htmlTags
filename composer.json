@@ -39,7 +39,8 @@
             "App\\tags\\form\\": "src/form/",
             "App\\tags\\label\\": "src/label/",
             "App\\tags\\input\\": "src/input/",
-            "App\\tags\\p\\": "src/p/"
+            "App\\tags\\p\\": "src/p/",
+            "App\\tags\\img\\": "src/img/"
         },
         "files": ["src/helpers.php"]
     }
