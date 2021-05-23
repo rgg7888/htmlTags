@@ -1,6 +1,6 @@
 <?php
 
-namespace App\tags\link;
+namespace App\tags\img;
 
 use App\ha\HtmlArmor;
 
